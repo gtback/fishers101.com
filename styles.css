@@ -1,0 +1,13 @@
+// Inspired by https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
+* {
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+html {
+  font-size: 125%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #222;
+}
