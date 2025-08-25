@@ -38,7 +38,7 @@ jobs:
           cp styles.css out
           python ./build.py index.md > out/index.html
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./out
 
